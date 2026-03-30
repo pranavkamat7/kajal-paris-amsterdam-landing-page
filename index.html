@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Paris x Amsterdam with Kajal | 6 Days, 2 Countries, Zero FOMO</title>
+<title>Glimpses of Europe with Kajal | 8 Nights, 9 Days, 4 Countries</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -87,7 +87,7 @@ h1,h2,h3{
 }
 
 .section{
-  padding:18px 0;
+  padding:10px 0;
 }
 
 main{
@@ -95,26 +95,6 @@ main{
   overflow-x:hidden;
 }
 
-/* ---- CENTER EVERYTHING ---- */
-.card,
-.day-body,
-.stat-grid,
-.dates-grid,
-.steps,
-.includes,
-.price-big,
-.day-tags,
-.reason-grid,
-.vibes,
-.hero-copy,
-.hero-lead,
-.hero-actions,
-.q-text,
-.form-intro-text {
-  /* centering text in sections handled per-element below */
-}
-
-/* Center card content */
 .card {
   text-align: center;
 }
@@ -128,7 +108,6 @@ main{
   text-align: center;
 }
 
-/* Center day body */
 .day-body {
   text-align: center;
 }
@@ -139,9 +118,8 @@ main{
   justify-content: center;
 }
 
-/* Center includes list */
 .includes li {
-  text-align: left; /* keep list items left-aligned for readability, just center the list itself */
+  text-align: left;
 }
 .includes {
   max-width: 600px;
@@ -149,7 +127,6 @@ main{
   margin-right: auto;
 }
 
-/* Center price elements */
 .price-big {
   justify-content: center;
 }
@@ -166,14 +143,12 @@ main{
   text-align: center;
 }
 
-/* Center dates */
 .dates-note {
   text-align: center;
 }
 
-/* Center steps */
 .step {
-  text-align: left; /* keep step text left for readability */
+  text-align: left;
 }
 .steps {
   max-width: 560px;
@@ -182,12 +157,10 @@ main{
   margin-top: 22px;
 }
 
-/* Center reasons grid */
 .reason-item {
   text-align: center;
 }
 
-/* Center creator section */
 .creator-name-big {
   text-align: center;
 }
@@ -202,7 +175,6 @@ main{
   justify-content: center;
 }
 
-/* Center quote */
 .q-text {
   text-align: center;
 }
@@ -210,7 +182,6 @@ main{
   justify-content: center;
 }
 
-/* Center section headings above days */
 .text-wrap > .kicker {
   display: flex;
   justify-content: center;
@@ -222,7 +193,6 @@ main{
   text-align: center;
 }
 
-/* Center hero */
 .hero-copy {
   text-align: center;
   max-width: 760px;
@@ -602,13 +572,7 @@ main{
   color:var(--rose);
   margin-bottom:10px;
 }
-.kicker::before{
-  content:'';
-  width:18px;
-  height:1.5px;
-  border-radius:4px;
-  background:var(--rose);
-}
+
 
 .section-title{
   font-size:clamp(28px, 5vw, 40px);
@@ -1274,7 +1238,7 @@ footer{
 
 <div class="sticky-bar" id="stickyCta">
   <div class="sticky-left">
-    <div class="sticky-price">₹1,85,999</div>
+    <div class="sticky-price">₹2,45,999</div>
     <div class="sticky-note">Per person | Twin sharing | All inclusive</div>
   </div>
   <a href="#apply" class="sticky-btn">Book my spot</a>
@@ -1284,146 +1248,321 @@ footer{
   <div class="hero-media"></div>
   <div class="hero-content">
     <div class="wrap">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <div class="creator-chip">
-            <img src="https://ui-avatars.com/api/?name=Kajal+Kothari&background=bf7658&color=fff&size=128&bold=true" alt="Kajal Kothari">
-            <div>
-              <span class="chip-name">Kajal Kothari</span>
-              <span class="chip-handle">@kajalkothariofficial</span>
+
+      <!-- Glass card + urgency pinned to top-right (desktop) -->
+      <div class="hero-right-block">
+        <div class="hero-glass">
+          <div class="hero-stats">
+            <div class="h-stat">
+              <strong>Duration</strong>
+              <span>8 Nights | 9 Days</span>
             </div>
-          </div>
-
-          <div class="urgency">
-            <span class="urgency-dot"></span>
-            Limited seats | April 2026 departures open
-          </div>
-
-          <span class="eyebrow">Paris x Amsterdam Diaries</span>
-
-          <h1>Europe.<br>With <em>Kajal.</em></h1>
-
-          <p class="hero-lead">
-            5 nights. 2 countries. A group that matches your energy. This is not just a package trip. It is Kajal's Europe chapter, and you could be part of it.
-          </p>
-
-          <div class="hero-actions">
-            <a href="#apply" class="btn-primary">I want in</a>
-            <div class="hero-sub-note">Luxury feel. Fully managed. Real group vibe.</div>
+            <div class="h-stat">
+              <strong>Countries</strong>
+              <span>Paris + Amsterdam + Frankfurt + Zurich</span>
+            </div>
+            <div class="h-stat">
+              <strong>Departs</strong>
+              <span>April 2026</span>
+            </div>
+            <div class="h-stat">
+              <strong>Price</strong>
+              <span>₹2.45L all inclusive</span>
+            </div>
           </div>
         </div>
 
-        <div class="hero-side">
-          <div class="hero-glass">
-            <div class="hero-stats">
-              <div class="h-stat">
-                <strong>Duration</strong>
-                <span>5 Nights | 6 Days</span>
-              </div>
-              <div class="h-stat">
-                <strong>Countries</strong>
-                <span>Netherlands + France</span>
-              </div>
-              <div class="h-stat">
-                <strong>Departs</strong>
-                <span>Apr 8 to May 27</span>
-              </div>
-              <div class="h-stat">
-                <strong>Price</strong>
-                <span>₹1.85L all inclusive</span>
-              </div>
-            </div>
-          </div>
+        <div class="urgency" style="margin:0;">
+          <span class="urgency-dot"></span>
+          Limited seats | April 2026 departure opens
         </div>
       </div>
+
+      <!-- Left copy -->
+      <div class="hero-copy" style="max-width:560px;">
+        <div class="creator-chip">
+          <img src="https://ui-avatars.com/api/?name=Kajal+Kothari&background=bf7658&color=fff&size=128&bold=true" alt="Kajal Kothari">
+          <div>
+            <span class="chip-name">Kajal Kothari</span>
+            <span class="chip-handle">@kajalkothariofficial</span>
+          </div>
+        </div>
+
+        <span class="eyebrow">Glimpses of Europe</span>
+
+        <h1>Europe With <em>Kajal.</em></h1>
+
+        <p class="hero-lead">
+          8 nights. 9 days. 4 countries. A group that matches your energy. This is not just a package trip. It is Kajal's Europe chapter, and you could be part of it.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#apply" class="btn-primary">I want in</a>
+          <div class="hero-sub-note">Luxury feel. Fully managed. Real group vibe.</div>
+        </div>
+      </div>
+
     </div>
   </div>
 </header>
 
+<style>
+/* Desktop: absolute top-right */
+.hero-right-block {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  z-index: 3;
+  width: 360px;
+}
 
+.hero-right-block .hero-glass {
+  width: 100%;
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  /* Make wrap a flex column so blocks stack */
+  .hero-content .wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100svh;
+    padding-bottom: 80px;
+    gap: 20px;
+  }
+
+  /* Remove absolute positioning on mobile */
+  .hero-right-block {
+    position: static;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  /* Make glass card full width */
+  .hero-right-block .hero-glass {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Compact stats grid on mobile */
+  .hero-right-block .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-right-block .h-stat {
+    padding: 10px 12px;
+  }
+
+  /* Stack: stats first, then copy below */
+  .hero-right-block {
+    order: 1;
+  }
+
+  .hero-copy {
+    order: 2;
+    max-width: 100% !important;
+    text-align: left;
+  }
+
+  /* Urgency tag left aligned on mobile */
+  .hero-right-block .urgency {
+    align-self: flex-start;
+  }
+
+  /* Shrink h1 on small screens */
+  .hero h1 {
+    font-size: clamp(40px, 11vw, 72px);
+  }
+
+  /* Full width CTA on mobile */
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-sub-note {
+    text-align: center;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 400px) {
+  .hero-right-block .h-stat span {
+    font-size: 13px;
+  }
+  .hero-right-block .h-stat strong {
+    font-size: 9px;
+  }
+}
+</style>
+
+
+
+<section class="section reveal" id="meet-kajal">
+  <div class="wrap">
+
+    <!-- Heading block -->
+    <div style="padding: 50px 0 40px;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:16px;">
+        <span style="font-size:10px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:var(--rose);">Your Trip Host</span>
+        
+      </div>
+      <h2 style="font-family:'DM Serif Display',serif; font-size:clamp(38px,5.5vw,60px); font-weight:400; line-height:1.1; letter-spacing:-0.02em; color:var(--ink);">
+        Travel the world<br>with someone <em style="font-style:italic; color:var(--rose);">you trust</em>
+      </h2>
+    </div>
+
+    <!-- Two-column layout -->
+    <div class="kajal-grid">
+
+      <!-- Left: Photo -->
+      <div class="kajal-photo-col">
+        <div style="aspect-ratio:3/4; border-radius:24px; overflow:hidden; background:#e8ddd4; box-shadow:var(--shadow-lg); position:relative;">
+          <img
+            src="kajal.jpeg"
+            alt="Kajal Kothari"
+            style="width:100%; height:100%; object-fit:cover; object-position:center top; display:block;">
+        </div>
+
+        <!-- Dark Instagram badge -->
+        <a href="https://www.instagram.com/kajalkothariofficial/"
+          target="_blank"
+          rel="noopener"
+          class="kajal-ig-badge">
+          <div style="font-family:'DM Serif Display',serif; font-size:22px; color:#c9a55a; margin-bottom:5px;">@kajalkothariofficial</div>
+          <div style="font-size:10px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:rgba(255,255,255,.45);">Follow on Instagram</div>
+        </a>
+      </div>
+
+      <!-- Right: Text -->
+      <div class="kajal-text-col">
+        <p style="font-size:16px; line-height:1.9; color:var(--ink); margin-bottom:22px; font-weight:300;">
+          Hi, I'm <strong style="font-weight:700;">Kajal</strong> — and I've been dreaming of taking all of you to Europe with me. This isn't a tour you'll just watch on your screen. <strong style="font-weight:700;">You'll be right there</strong>, next to me.
+        </p>
+
+        <p style="font-size:16px; line-height:1.9; color:var(--ink); margin-bottom:22px; font-weight:300;">
+          I've partnered with Akbar Holidays — one of India's most trusted outbound travel companies with 20+ years of Europe expertise — so every logistic is handled. <strong style="font-weight:700;">All you have to do is show up and be present.</strong>
+        </p>
+
+        <p style="font-size:16px; line-height:1.9; color:var(--ink); margin-bottom:28px; font-weight:300;">
+          We're doing the Glimpses of Europe package — 8 nights of iconic landscapes, cobblestone streets, alpine views, and memories that will outlast any reel.
+        </p>
+
+        <a href="https://www.instagram.com/kajalkothariofficial/"
+          target="_blank"
+          rel="noopener"
+          style="display:inline-flex; align-items:center; gap:8px; color:var(--rose); font-size:14px; font-weight:600; text-decoration:none;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          @kajalkothariofficial →
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .kajal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+
+  .kajal-photo-col {
+    position: relative;
+  }
+
+  .kajal-ig-badge {
+    position: absolute;
+    left: 350px;
+    bottom: -20px;
+    display: block;
+    background: #111009;
+    color: #fff;
+    padding: 18px 24px;
+    border-radius: 14px;
+    text-decoration: none;
+    box-shadow: 0 18px 50px rgba(0,0,0,.25);
+    min-width: 210px;
+  }
+
+  .kajal-text-col {
+    padding: 10px 0;
+  }
+
+  @media (max-width: 860px) {
+    .kajal-grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    .kajal-ig-badge {
+      left: 0;
+      bottom: 20px;
+    }
+  }
+</style>
 
 <div class="strip-wrap">
   <div class="wrap">
     <div class="photo-strip">
       <div class="strip-photo">
-        <!-- Paris by night: Seine river with Eiffel Tower lights -->
-        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=jpg&fit=crop&w=700&q=80" alt="Paris by night" loading="lazy">
-        <span class="strip-label">Paris by night</span>
+        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=jpg&fit=crop&w=700&q=80" alt="Paris" loading="lazy">
+        <span class="strip-label">Paris</span>
       </div>
       <div class="strip-photo">
-        <!-- Amsterdam canals -->
-        <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?fm=jpg&fit=crop&w=700&q=80" alt="Amsterdam canals" loading="lazy">
-        <span class="strip-label">Amsterdam canals</span>
+        <img src="https://images.unsplash.com/photo-1564594985645-4427056e22e2?fm=jpg&fit=crop&w=700&q=80" alt="Disneyland Paris" loading="lazy">
+        <span class="strip-label">Disneyland Paris</span>
       </div>
       <div class="strip-photo">
-        <!-- Eiffel Tower -->
-        <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?fm=jpg&fit=crop&w=700&q=80" alt="Eiffel Tower" loading="lazy">
-        <span class="strip-label">Eiffel Tower</span>
+        <img src="https://images.unsplash.com/photo-1577083165633-14ebcdb0f658?fm=jpg&fit=crop&w=700&q=80" alt="Brussels Town Hall" loading="lazy">
+        <span class="strip-label">Brussels Town Hall</span>
       </div>
       <div class="strip-photo">
-        <!-- Spring tulips - Keukenhof -->
-        <img src="https://images.unsplash.com/photo-1467139701929-18c0d27a7516?fm=jpg&fit=crop&w=700&q=80" alt="Tulip fields" loading="lazy">
-        <span class="strip-label">Spring tulips</span>
+        <img src="https://images.unsplash.com/photo-1467139701929-18c0d27a7516?fm=jpg&fit=crop&w=700&q=80" alt="Zaanse Schans" loading="lazy">
+        <span class="strip-label">Zaanse Schans</span>
       </div>
       <div class="strip-photo">
-        <!-- Brussels architecture -->
-        <img src="https://images.unsplash.com/photo-1577083165633-14ebcdb0f658?fm=jpg&fit=crop&w=700&q=80" alt="Brussels architecture" loading="lazy">
-        <span class="strip-label">Brussels stop</span>
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&fit=crop&w=700&q=80" alt="Mt. Titlis" loading="lazy">
+        <span class="strip-label">Mt. Titlis</span>
       </div>
       <div class="strip-photo">
-        <!-- Paris morning cafe -->
-        <img src="https://images.unsplash.com/photo-1550340499-a6c60fc8287c?fm=jpg&fit=crop&w=700&q=80" alt="Paris cafe" loading="lazy">
-        <span class="strip-label">Paris mornings</span>
+        <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?fm=jpg&fit=crop&w=700&q=80" alt="Amsterdam" loading="lazy">
+        <span class="strip-label">Amsterdam</span>
       </div>
     </div>
   </div>
 </div>
 
 <main>
-  <section class="section reveal">
-    <div class="wrap">
-      <div class="card text-wrap">
-        <span class="kicker">What this is</span>
-        <h2 class="section-title">Not a tour. Kajal's Europe chapter.</h2>
-        <p class="section-desc">
-          Paris x Amsterdam Diaries is a fully managed, creator led group trip. Kajal is the vibe. You are travelling with people who already connect with her energy. Every iconic moment, from canal cruises to the Eiffel Tower at sunset, is lived together.
-        </p>
-
-        <div class="stat-grid">
-          <div class="stat-box">
-            <div class="stat-num">2</div>
-            <div class="stat-label">Countries</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-num">5N</div>
-            <div class="stat-label">6 Days</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-num">4★</div>
-            <div class="stat-label">Hotels</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-num">0</div>
-            <div class="stat-label">FOMO</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <section class="section reveal">
     <div class="wrap">
       <div class="text-wrap">
         <span class="kicker" style="display:flex;justify-content:center;">The itinerary</span>
-        <h2 class="section-title" style="text-align:center;">6 days, city by city.</h2>
+        <h2 class="section-title" style="text-align:center;">9 days, city by city.</h2>
         <p class="section-desc" style="text-align:center;margin-bottom:0;">
-          Every day is planned so you get the best of both cities while still having time to enjoy the experience properly.
+          Every day is planned so you get the best of every city while still having time to enjoy the experience properly.
         </p>
       </div>
 
       <div class="days">
+
+        <!-- Day 01 -->
         <div class="day">
-          <!-- Amsterdam: canals with bikes -->
           <img class="day-img" src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?fm=jpg&fit=crop&w=1200&q=80" alt="Amsterdam" loading="lazy">
           <div class="day-body">
             <div class="day-num">Day 01</div>
@@ -1439,25 +1578,25 @@ footer{
           </div>
         </div>
 
+        <!-- Day 02 -->
         <div class="day">
-          <!-- Keukenhof tulip gardens -->
-          <img class="day-img" src="https://images.unsplash.com/photo-1467139701929-18c0d27a7516?fm=jpg&fit=crop&w=1200&q=80" alt="Keukenhof tulips" loading="lazy">
+          <img class="day-img" src="https://images.unsplash.com/photo-1467139701929-18c0d27a7516?fm=jpg&fit=crop&w=1200&q=80" alt="Zaanse Schans" loading="lazy">
           <div class="day-body">
             <div class="day-num">Day 02</div>
-            <div class="day-title">Amsterdam city tour and Keukenhof or Zaanse Schans</div>
+            <div class="day-title">Amsterdam city tour and Zaanse Schans</div>
             <p class="day-desc">
-              Explore Dam Square, the Royal Palace and the Anne Frank House exterior. Before 12 May, enjoy Keukenhof Gardens. After 13 May, visit Zaanse Schans and a Dutch cheese farm. End the day with a scenic canal cruise.
+              Explore Dam Square, the Royal Palace and the Anne Frank House exterior. Visit Zaanse Schans to see the iconic Dutch windmills and a traditional cheese farm. End the day with a scenic canal cruise through Amsterdam's waterways.
             </p>
             <div class="day-tags">
-              <span class="tag">Keukenhof</span>
+              <span class="tag">Zaanse Schans</span>
               <span class="tag">Canal cruise</span>
               <span class="tag">Dutch culture</span>
             </div>
           </div>
         </div>
 
+        <!-- Day 03 -->
         <div class="day">
-          <!-- Brussels Grand Place -->
           <img class="day-img" src="https://images.unsplash.com/photo-1577083165633-14ebcdb0f658?fm=jpg&fit=crop&w=1200&q=80" alt="Brussels" loading="lazy">
           <div class="day-body">
             <div class="day-num">Day 03</div>
@@ -1473,8 +1612,8 @@ footer{
           </div>
         </div>
 
+        <!-- Day 04 -->
         <div class="day">
-          <!-- Eiffel Tower -->
           <img class="day-img" src="https://images.unsplash.com/photo-1549144511-f099e773c147?fm=jpg&fit=crop&w=1200&q=80" alt="Eiffel Tower" loading="lazy">
           <div class="day-body">
             <div class="day-num">Day 04</div>
@@ -1490,8 +1629,8 @@ footer{
           </div>
         </div>
 
+        <!-- Day 05 -->
         <div class="day">
-          <!-- Disneyland Paris - castle -->
           <img class="day-img" src="https://images.unsplash.com/photo-1564594985645-4427056e22e2?fm=jpg&fit=crop&w=1200&q=80" alt="Disneyland Paris" loading="lazy">
           <div class="day-body">
             <div class="day-num">Day 05</div>
@@ -1507,14 +1646,65 @@ footer{
           </div>
         </div>
 
+        <!-- Day 06 -->
         <div class="day">
-          <!-- Paris morning - Haussmann streets -->
-          <img class="day-img" src="https://images.unsplash.com/photo-1550340499-a6c60fc8287c?fm=jpg&fit=crop&w=1200&q=80" alt="Paris morning" loading="lazy">
+          <img class="day-img" src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?fm=jpg&fit=crop&w=1200&q=80" alt="Frankfurt" loading="lazy">
           <div class="day-body">
             <div class="day-num">Day 06</div>
-            <div class="day-title">Fly home from Paris</div>
+            <div class="day-title">Paris to Frankfurt</div>
             <p class="day-desc">
-              Enjoy your final breakfast in Paris, check out and head to the airport. You leave with the kind of memories that stay with you long after the flight home.
+              Travel from Paris to Frankfurt, one of Germany's most dynamic cities. Check in and explore the charming Römerberg old town, the riverfront promenade and enjoy a relaxed evening soaking in the city.
+            </p>
+            <div class="day-tags">
+              <span class="tag">Frankfurt</span>
+              <span class="tag">Römerberg</span>
+              <span class="tag">Hotel check in</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 07 -->
+        <div class="day">
+          <img class="day-img" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&fit=crop&w=1200&q=80" alt="Mt. Titlis" loading="lazy">
+          <div class="day-body">
+            <div class="day-num">Day 07</div>
+            <div class="day-title">Frankfurt to Zurich and Mt. Titlis</div>
+            <p class="day-desc">
+              Travel to Zurich, Switzerland, and head up to Mt. Titlis for a snow experience unlike anything else. The revolving cable car, glacier cave and panoramic alpine views make this a highlight of the entire trip.
+            </p>
+            <div class="day-tags">
+              <span class="tag">Mt. Titlis</span>
+              <span class="tag">Snow experience</span>
+              <span class="tag">Cable car</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 08 -->
+        <div class="day">
+          <img class="day-img" src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?fm=jpg&fit=crop&w=1200&q=80" alt="Zurich city" loading="lazy">
+          <div class="day-body">
+            <div class="day-num">Day 08</div>
+            <div class="day-title">Zurich city tour</div>
+            <p class="day-desc">
+              Explore Zurich with a guided city tour covering the old town, Lake Zurich, Bahnhofstrasse and the beautiful Rhine Falls nearby. A relaxed final evening together before the journey home.
+            </p>
+            <div class="day-tags">
+              <span class="tag">Zurich</span>
+              <span class="tag">Rhine Falls</span>
+              <span class="tag">Lake Zurich</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 09 -->
+        <div class="day">
+          <img class="day-img" src="https://images.unsplash.com/photo-1550340499-a6c60fc8287c?fm=jpg&fit=crop&w=1200&q=80" alt="Departure" loading="lazy">
+          <div class="day-body">
+            <div class="day-num">Day 09</div>
+            <div class="day-title">Fly home from Zurich</div>
+            <p class="day-desc">
+              Enjoy your final breakfast in Zurich, check out and head to the airport. You leave with the kind of memories that stay with you long after the flight home.
             </p>
             <div class="day-tags">
               <span class="tag">Departure</span>
@@ -1522,6 +1712,7 @@ footer{
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -1534,7 +1725,7 @@ footer{
         <p style="font-size:13px;color:var(--muted);font-weight:300;text-align:center;">No hidden extras. No unnecessary confusion.</p>
 
         <div class="price-big">
-          <div class="price-num">₹1,85,999</div>
+          <div class="price-num">₹2,45,999</div>
           <div class="price-per">per adult<br>twin sharing</div>
         </div>
 
@@ -1547,9 +1738,10 @@ footer{
           <li><span class="ico">🗺️</span><span>Schengen visa charges included</span></li>
           <li><span class="ico">🚌</span><span>AC coach transfers and all sightseeing</span></li>
           <li><span class="ico">👤</span><span>Professional tour manager throughout</span></li>
-          <li><span class="ico">🌷</span><span>Keukenhof until May 12 or Zaanse Schans after May 13</span></li>
+          <li><span class="ico">🌷</span><span>Zaanse Schans windmill village visit</span></li>
           <li><span class="ico">🗼</span><span>Eiffel Tower second level entry and Seine River cruise</span></li>
           <li><span class="ico">🏰</span><span>Disneyland Paris full day experience</span></li>
+          <li><span class="ico">🏔️</span><span>Mt. Titlis snow experience in Zurich</span></li>
         </ul>
 
         <div class="excludes">
@@ -1559,176 +1751,453 @@ footer{
     </div>
   </section>
 
-  <section class="section reveal">
-    <div class="wrap">
-      <div class="card text-wrap">
-        <span class="kicker">Available dates</span>
-        <h2 class="section-title">Pick your departure.</h2>
-        <p class="section-desc">
-          Kajal will join a confirmed departure once the group is locked. Multiple April and May windows are available.
-        </p>
+  
 
-        <div class="dates-grid">
-          <div class="date-pill"><span class="date-month">April</span><span class="date-day">8th</span></div>
-          <div class="date-pill"><span class="date-month">April</span><span class="date-day">15th</span></div>
-          <div class="date-pill"><span class="date-month">April</span><span class="date-day">22nd</span></div>
-          <div class="date-pill"><span class="date-month">April</span><span class="date-day">29th</span></div>
-          <div class="date-pill"><span class="date-month">May</span><span class="date-day">6th</span></div>
-          <div class="date-pill"><span class="date-month">May</span><span class="date-day">13th</span></div>
-          <div class="date-pill"><span class="date-month">May</span><span class="date-day">20th</span></div>
-          <div class="date-pill"><span class="date-month">May</span><span class="date-day">27th</span></div>
+  
+<section class="section reveal">
+  <div class="wrap">
+
+    <!-- Heading -->
+    <div style="padding: 60px 0 40px;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;">
+        <span style="font-size:10px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:var(--rose);">Everything Handled</span>
+        
+      </div>
+      <h2 style="font-family:'DM Serif Display',serif; font-size:clamp(36px,6vw,62px); font-weight:400; line-height:1.08; letter-spacing:-0.02em; color:var(--ink);">
+        You just <em style="font-family:'DM Serif Display',serif; font-style:italic; color:var(--rose);">pack your bags</em>
+      </h2>
+    </div>
+
+    <!-- 3x2 Grid -->
+    <div class="pack-grid">
+
+      <!-- Card 1 — Dark featured -->
+      <div class="pack-card pack-card--dark">
+        <div class="pack-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4">
+            <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+          </svg>
         </div>
+        <div class="pack-title">Flights & Visa</div>
+        <div class="pack-body">Return economy airfare from 5 Indian cities. Full visa documentation guidance included.</div>
+      </div>
 
-        <p class="dates-note">
-          Minimum 30 passengers to operate. Your seat is held with a refundable ₹60,000 deposit. Full payment is due 30 days before departure.
-        </p>
+      <!-- Card 2 -->
+      <div class="pack-card">
+        <div class="pack-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4">
+            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+        </div>
+        <div class="pack-title">4-Star Hotels</div>
+        <div class="pack-body">Comfortable, centrally located hotels throughout the trip. Breakfast and select meals included.</div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="pack-card">
+        <div class="pack-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4">
+            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <div class="pack-title">Tour Manager</div>
+        <div class="pack-body">A dedicated professional tour manager accompanies the group from departure to return.</div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="pack-card">
+        <div class="pack-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+        </div>
+        <div class="pack-title">All Sightseeing</div>
+        <div class="pack-body">Transfers, entrance tickets, and guided sightseeing at all major attractions in the itinerary.</div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="pack-card">
+        <div class="pack-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4">
+            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+          </svg>
+        </div>
+        <div class="pack-title">24/7 Support</div>
+        <div class="pack-body">Akbar Holidays' team available before and during the trip to answer your questions.</div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="pack-card">
+        <div class="pack-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4">
+            <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/>
+          </svg>
+        </div>
+        <div class="pack-title">Travel with Kajal</div>
+        <div class="pack-body">Kajal is your trip host — creating memories together, not just on screen.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+.pack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--line-med);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.pack-card {
+  padding: 36px 32px;
+  border-right: 1px solid var(--line-med);
+  border-bottom: 1px solid var(--line-med);
+  background: #fff;
+  transition: background .2s ease;
+}
+
+.pack-card:hover {
+  background: #fdf9f6;
+}
+
+/* Remove right border on last in each row */
+.pack-card:nth-child(3n) {
+  border-right: none;
+}
+
+/* Remove bottom border on last row */
+.pack-card:nth-child(n+4) {
+  border-bottom: none;
+}
+
+/* Dark first card */
+.pack-card--dark {
+  background: #0f0c09;
+  color: #fff;
+}
+.pack-card--dark:hover {
+  background: #1a1410;
+}
+
+.pack-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(191,118,88,.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  color: var(--rose);
+}
+
+.pack-card--dark .pack-icon {
+  border-color: rgba(255,255,255,.15);
+  color: rgba(255,255,255,.6);
+}
+
+.pack-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-bottom: 12px;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.pack-card--dark .pack-title {
+  color: #fff;
+}
+
+.pack-body {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--muted);
+  font-weight: 300;
+}
+
+.pack-card--dark .pack-body {
+  color: rgba(255,255,255,.5);
+}
+
+@media (max-width: 760px) {
+  .pack-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pack-card:nth-child(3n) {
+    border-right: 1px solid var(--line-med);
+  }
+  .pack-card:nth-child(2n) {
+    border-right: none;
+  }
+  .pack-card:nth-child(n+4) {
+    border-bottom: 1px solid var(--line-med);
+  }
+  .pack-card:nth-child(n+5) {
+    border-bottom: none;
+  }
+  .pack-card {
+    padding: 24px 20px;
+  }
+  .pack-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pack-grid {
+    grid-template-columns: 1fr;
+  }
+  .pack-card {
+    border-right: none !important;
+    border-bottom: 1px solid var(--line-med) !important;
+  }
+  .pack-card:last-child {
+    border-bottom: none !important;
+  }
+}
+</style>
+
+<section class="section reveal">
+  <div class="wrap">
+
+    <!-- Heading -->
+    <div style="padding: 0px 0 40px;">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;">
+        <span style="font-size:10px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:var(--rose);">How It Works</span>
+      </div>
+      <h2 style="font-family:'DM Serif Display',serif; font-size:clamp(36px,6vw,62px); font-weight:400; line-height:1.08; letter-spacing:-0.02em; color:var(--ink);">
+        Four simple <em style="font-style:italic; color:var(--rose);">steps</em>
+      </h2>
+    </div>
+
+    <!-- Desktop Timeline -->
+    <div class="timeline-wrap">
+      <div class="timeline-line"></div>
+      <div class="timeline-steps">
+        <div class="timeline-step">
+          <div class="tl-dot">1</div>
+          <div class="tl-title">Fill the Form</div>
+          <div class="tl-desc">Submit your interest below with your details and travel city</div>
+        </div>
+        <div class="timeline-step">
+          <div class="tl-dot">2</div>
+          <div class="tl-title">Get a Call Back</div>
+          <div class="tl-desc">Akbar Holidays will reach out to share full details and confirm your seat</div>
+        </div>
+        <div class="timeline-step">
+          <div class="tl-dot">3</div>
+          <div class="tl-title">Book & Prep</div>
+          <div class="tl-desc">Complete your booking, visa docs sorted, you start packing</div>
+        </div>
+        <div class="timeline-step">
+          <div class="tl-dot">4</div>
+          <div class="tl-title">Fly with Kajal</div>
+          <div class="tl-desc">Depart with the group and experience Europe together</div>
+        </div>
       </div>
     </div>
-  </section>
 
-  <section class="section reveal">
-    <div class="wrap">
-      <div class="card text-wrap">
-        <span class="kicker">Your trip host</span>
-
-        <!-- Kajal full portrait photo -->
-        <div class="creator-img-wrap">
-          <img class="creator-img" 
-  src="kajal.jpeg" 
-  alt="Kajal Kothari" 
-  loading="lazy">
+    <!-- Mobile Steps (shown only on mobile) -->
+    <div class="mobile-steps">
+      <div class="mobile-step">
+        <div class="mobile-step-left">
+          <div class="tl-dot">1</div>
+          <div class="mobile-connector"></div>
         </div>
-
-        <div class="creator-name-big">Kajal Kothari</div>
-        <a class="ig-link" href="https://www.instagram.com/kajalkothariofficial/" target="_blank" rel="noopener">
-          📸 @kajalkothariofficial
-        </a>
-
-        <p class="creator-bio-text">
-          I have been dreaming of doing this for a while. Taking a real group of people I actually vibe with through two cities that feel romantic, cinematic and unforgettable. This is not about putting my face on a poster while you travel separately. I am part of the experience with you, from the first dinner to those big wow moments in Paris.
-        </p>
-
-        <div class="vibes">
-          <span class="vibe">#SlowTravel</span>
-          <span class="vibe">#GoldenHourObsessed</span>
-          <span class="vibe">#MainCharacterEnergy</span>
-          <span class="vibe">#HiddenCafes</span>
+        <div class="mobile-step-body">
+          <div class="tl-title">Fill the Form</div>
+          <div class="tl-desc">Submit your interest below with your details and travel city</div>
+        </div>
+      </div>
+      <div class="mobile-step">
+        <div class="mobile-step-left">
+          <div class="tl-dot">2</div>
+          <div class="mobile-connector"></div>
+        </div>
+        <div class="mobile-step-body">
+          <div class="tl-title">Get a Call Back</div>
+          <div class="tl-desc">Akbar Holidays will reach out to share full details and confirm your seat</div>
+        </div>
+      </div>
+      <div class="mobile-step">
+        <div class="mobile-step-left">
+          <div class="tl-dot">3</div>
+          <div class="mobile-connector"></div>
+        </div>
+        <div class="mobile-step-body">
+          <div class="tl-title">Book & Prep</div>
+          <div class="tl-desc">Complete your booking, visa docs sorted, you start packing</div>
+        </div>
+      </div>
+      <div class="mobile-step mobile-step--last">
+        <div class="mobile-step-left">
+          <div class="tl-dot">4</div>
+        </div>
+        <div class="mobile-step-body">
+          <div class="tl-title">Fly with Kajal</div>
+          <div class="tl-desc">Depart with the group and experience Europe together</div>
         </div>
       </div>
     </div>
-  </section>
 
-  <section class="section reveal">
-    <div class="wrap">
-      <div class="quote-card text-wrap">
-        <p class="q-text">
-          "The strongest trips are not the ones with the biggest itineraries. They are the ones where the group actually clicks. That is what I want to build here."
-        </p>
-        <div class="q-source">
-          <div class="q-avatar">✨</div>
-          <div>
-            <span class="q-name">Kajal Kothari</span>
-            <span class="q-role">Creator | Trip Host | @kajalkothariofficial</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section class="section reveal">
-    <div class="wrap">
-      <div class="card reasons text-wrap">
-        <span class="kicker">Why this is different</span>
-        <h2 class="section-title">You are joining Kajal's group.</h2>
+<style>
+/* ── Desktop timeline ── */
+.timeline-wrap {
+  position: relative;
+  padding-bottom: 80px;
+}
 
-        <div class="reason-grid">
-          <div class="reason-item">
-            <div class="reason-title">The vibe is intentional</div>
-            <div class="reason-body">
-              This is not a random large coach trip with strangers. The group is built around people who genuinely connect with Kajal and her energy.
-            </div>
-          </div>
+.timeline-line {
+  position: absolute;
+  top: 22px;
+  left: calc(100% / 8);
+  right: calc(100% / 8);
+  height: 1px;
+  background: rgba(191,118,88,.35);
+  z-index: 0;
+}
 
-          <div class="reason-item">
-            <div class="reason-title">The experience feels social and premium</div>
-            <div class="reason-body">
-              Beautiful cities, great group moments and real time content opportunities make the trip feel elevated from start to finish.
-            </div>
-          </div>
+.timeline-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  z-index: 1;
+}
 
-          <div class="reason-item">
-            <div class="reason-title">Everything is handled</div>
-            <div class="reason-body">
-              Flights, hotels, meals, visa, transfers and the tour manager are already taken care of, so you can focus on enjoying the journey.
-            </div>
-          </div>
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 24px;
+}
 
-          <div class="reason-item">
-            <div class="reason-title">The route is iconic</div>
-            <div class="reason-body">
-              Amsterdam and Paris are two dream destinations that work beautifully together in one compact and memorable itinerary.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+.tl-dot {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(191,118,88,.3);
+  background: #f7f1ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--rose);
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
 
-  <section class="section reveal">
-    <div class="wrap">
-      <div class="card text-wrap">
-        <span class="kicker">How booking works</span>
-        <h2 class="section-title">Simple, clear, premium.</h2>
+.tl-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
 
-        <div class="steps">
-          <div class="step">
-            <div class="step-num">1</div>
-            <div>
-              <div class="step-title">Fill out the form below</div>
-              <div class="step-desc">Share your interest and the team will reach out to confirm the next steps.</div>
-            </div>
-          </div>
+.tl-desc {
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--muted);
+  font-weight: 300;
+  max-width: 22ch;
+}
 
-          <div class="step">
-            <div class="step-num">2</div>
-            <div>
-              <div class="step-title">Pay the ₹60,000 booking amount</div>
-              <div class="step-desc">This refundable amount holds your seat once your spot is confirmed.</div>
-            </div>
-          </div>
+/* Mobile steps — hidden on desktop */
+.mobile-steps {
+  display: none;
+}
 
-          <div class="step">
-            <div class="step-num">3</div>
-            <div>
-              <div class="step-title">Complete the balance before departure</div>
-              <div class="step-desc">The remaining amount is paid as per the travel schedule shared by the team.</div>
-            </div>
-          </div>
+/* ── Mobile ── */
+@media (max-width: 640px) {
 
-          <div class="step">
-            <div class="step-num" style="background:var(--gold-soft);color:var(--gold);">✓</div>
-            <div>
-              <div class="step-title">Get ready for Europe</div>
-              <div class="step-desc">Keep your passport valid for at least 6 months from departure and the rest is handled for you.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  /* Hide desktop version */
+  .timeline-wrap {
+    display: none;
+  }
 
+  /* Show mobile version */
+  .mobile-steps {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .mobile-step {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .mobile-step-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  /* Vertical connector line between dots */
+  .mobile-connector {
+    width: 1px;
+    flex: 1;
+    min-height: 40px;
+    background: rgba(191,118,88,.3);
+    margin: 6px 0;
+  }
+
+  .mobile-step-body {
+    padding-top: 10px;
+    padding-bottom: 32px;
+  }
+
+  .mobile-step--last .mobile-step-body {
+    padding-bottom: 0;
+  }
+
+  /* Override dot margin for vertical layout */
+  .mobile-steps .tl-dot {
+    margin-bottom: 0;
+  }
+
+  /* Left-align text */
+  .mobile-steps .tl-title {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .mobile-steps .tl-desc {
+    max-width: none;
+    font-size: 14px;
+  }
+}
+</style>
+
+  
   <section class="section reveal" id="apply">
     <div class="wrap">
       <div class="card form-section text-wrap">
         <span class="kicker">Apply now</span>
-        <h2 class="section-title" style="margin:10px 0 12px;">Want in on Paris x Amsterdam with Kajal?</h2>
+        <h2 class="section-title" style="margin:10px 0 12px;">Want in on Glimpses of Europe with Kajal?</h2>
         <p class="form-intro-text">
           Spots are limited and the team will review applications carefully. Fill this out and the travel team will get in touch with you.
         </p>
 
         <div class="zoho-wrap">
           <iframe
-            aria-label="Want in on Paris x Amsterdam with Kajal?"
+            aria-label="Want in on Glimpses of Europe with Kajal?"
             src="https://forms.zohopublic.in/melangedigital1/form/EventRegistrationForm/formperma/nrceiDXaX2iFJ0OCPPC6HGbQNlt4hzUuLSgu2BMhsrs">
           </iframe>
         </div>
@@ -1743,7 +2212,7 @@ footer{
 
 <footer style="margin-bottom: 5%">
   <div class="wrap">
-    <div class="footer-brand">Paris x Amsterdam with Kajal</div>
+    <div class="footer-brand">Glimpses of Europe with Kajal</div>
     <div class="footer-links">
       Questions? DM <a href="https://www.instagram.com/kajalkothariofficial/" target="_blank" rel="noopener">@kajalkothariofficial</a> on Instagram
     </div>
